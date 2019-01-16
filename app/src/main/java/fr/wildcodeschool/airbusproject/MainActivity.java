@@ -1,7 +1,9 @@
-tatuspackage fr.wildcodeschool.airbusproject;
+package fr.wildcodeschool.airbusproject;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import fr.wildcodeschool.airbusproject.R;
 
 public class MainActivity extends AppCompatActivity {
 
