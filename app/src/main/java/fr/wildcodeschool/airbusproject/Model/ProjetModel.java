@@ -1,4 +1,4 @@
-package fr.wildcodeschool.airbusproject;
+package fr.wildcodeschool.airbusproject.Model;
 
 public class ProjetModel {
 

@@ -1,4 +1,4 @@
-package fr.wildcodeschool.airbusproject;
+package fr.wildcodeschool.airbusproject.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
+
+import fr.wildcodeschool.airbusproject.Model.ProjetModel;
+import fr.wildcodeschool.airbusproject.ProjetActivity;
+import fr.wildcodeschool.airbusproject.R;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>{
 
@@ -41,7 +45,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(mContext,ProjetActivity.class);
+                Intent intent = new Intent(mContext, ProjetActivity.class);
 
                 // passing data to the book activity
                 intent.putExtra("Title",mData.get(position).getTitle());
