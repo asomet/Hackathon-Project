@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:text="create a new account"
             android:textSize="20sp"/>
-
+        
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,18 +48,19 @@
             android:layout_marginTop="10dp"
             app:met_floatingLabel="normal"
             android:hint="Password"/>
-
+        
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="login"
-            android:id="@+id/btn_login"
+            android:text="register"
+            android:id="@+id/btn_register"
             android:background="@color/colorPrimaryDark"
             android:layout_marginTop="10dp"
             android:textColor="#fff"/>
+        
     </LinearLayout>
 
-
+    
 
 
 
