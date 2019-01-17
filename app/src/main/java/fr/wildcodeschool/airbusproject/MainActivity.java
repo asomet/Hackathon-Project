@@ -7,6 +7,9 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+import fr.wildcodeschool.airbusproject.Adapter.RecyclerViewAdapter;
+import fr.wildcodeschool.airbusproject.Model.ProjetModel;
+
 public class MainActivity extends AppCompatActivity {
 
     List<ProjetModel> lstBook ;
